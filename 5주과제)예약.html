@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>음식점 예약 화면</title>
 </head>
+
+<header>
+ <h1 style="text-align:center">현승한 음식점에 오신것을 환영합니다.</h1>
+</header>
+ 
 <body>
     <section><form action="http://hive.dju.ac.kr/~drkdhong/semantic/reservation2.jsp"method="post">
         <fieldset><legend>예약자 정보</legend>   <!-- --예약자정보-- 네모 칸 -->
@@ -26,7 +31,6 @@
         <button type="submit">입력</button>
         <input type="reset" name="reset1"value="취소"/>
 
-
         <fiedlset><legend>메뉴</legend>
         <label for="mealx">메뉴</label>
         <select id="mealx" name="menu" multiple="">
@@ -37,8 +41,8 @@
            <option value="어묵">흑염소</option>
            <option value="튀김">오리로스</option>
           <option value="튀김">소고기</option>
-          <option value="튀김">석화</option>
-  </select>
-        </form>
+          <option value="튀김">석화</option></select></fiedlset>
+     </form>
+       
     </section>
 </body>
